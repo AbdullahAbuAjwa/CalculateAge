@@ -14,7 +14,6 @@ import android.widget.Toast;
 import java.util.Calendar;
 
 public class MainActivity extends AppCompatActivity {
-    Button bt_vis_again;
     TextView tv_birthDay, tv_remain, tv_age, tv_vis_birth, tv_vis_age, tv_vis_remain;
     Calendar calendar = Calendar.getInstance();
 

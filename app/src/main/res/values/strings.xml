@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Calculateage</string>
+    <string name="app_name">Calculate age</string>
     <string name="bt_birthday">Enter your birthday</string>
     <string name="birthDay">your birthday</string>
     <string name="age">Age</string>
