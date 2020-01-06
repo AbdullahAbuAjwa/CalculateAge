@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">حساب العمر</string>
+    <string name="bt_birthday">أدخل تاريخ ميلادك</string>
+    <string name="birthDay">تاريخ ميلادك</string>
+    <string name="age">عمرك هو</string>
+    <string name="remain">متبقي لعيد ميلادك القادم</string>
+    <string name="birth">تاريخ ميلادك</string>
+    <string name="year">سنوات</string>
+    <string name="month">أشهر</string>
+    <string name="day">يوم</string>
+    <string name="calc">احسب مرة أخرى</string>
+
+</resources>
