@@ -9,5 +9,9 @@
     <string name="month">months</string>
     <string name="day">days</string>
     <string name="calc">calculate again</string>
+    <string name="complete">to complete</string>
+    <string name="and">and</string>
+    <string name="error">Enter real date</string>
+
 
 </resources>

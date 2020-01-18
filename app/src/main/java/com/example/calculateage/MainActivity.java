@@ -63,20 +63,24 @@ public class MainActivity extends AppCompatActivity {
             int _day = currentDay - day;
             _day = _day < 0 ? (_day * -1) : _day;
             String resultMessage = "";
-
+            String y = getResources().getString(R.string.year);
+            String m = getResources().getString(R.string.month);
+            String d = getResources().getString(R.string.day);
+            String and = getResources().getString(R.string.and);
+            String complete = getResources().getString(R.string.complete);
             if (_month < 0) {
                 if (((_month * -1) - 1) == 0) {
-                    resultMessage = _day + " days to complete\n" + _year + " years old";
+                    resultMessage = _day + " " + d + " " + complete + " " + _year + " " + y;
 
                 } else {
-                    resultMessage = ((_month * -1) - 1) + " month\nand " + _day + " days to complete\n" + _year + " years old.";
+                    resultMessage = ((_month * -1) - 1) + " " + m + " " + and + " " + _day + " " + d + "\n" + complete + " " + _year + " " + y;
                 }
             }
             tv_remain.setText(resultMessage);
             tv_vis_remain.setVisibility(View.VISIBLE);
 
         } else {
-            Toast.makeText(MainActivity.this, "Enter real date", Toast.LENGTH_SHORT).show();
+            Toast.makeText(MainActivity.this, R.string.error, Toast.LENGTH_SHORT).show();
         }
     }
 

@@ -10,5 +10,9 @@
     <string name="month">أشهر</string>
     <string name="day">يوم</string>
     <string name="calc">احسب مرة أخرى</string>
+    <string name="complete">لإكمال</string>
+    <string name="and">و</string>
+    <string name="error">Enter real date</string>
+
 
 </resources>
